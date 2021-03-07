@@ -8,7 +8,7 @@ Thus using the .djvu version makes sense. Since the book is relatively long and 
 
 Please disseminate. If you find any errors please report.
 
-You will need DjVuLibre. On Windows you need to add the install path to your environmental variable and to your `%PATH%` unless you want cmd.exe 10 line command cancer.
+You will need DjVuLibre. On Windows you need to add the install path to your environmental variables and to your `%PATH%` unless you want cmd.exe 10 line command cancer.
 ```
  djvused kailath.djvu -e "set-outline kailath.bm" -s
 ```

@@ -1,5 +1,4 @@
-# bm-kailath-linear-systems
-## DjVu bookmark for Kailath's Linear Systems 
+# DjVu & PDF bookmarks for Kailath's Linear Systems 
 You know where to find the book. I suggest you use the .djvu version that has 704 pages.
 
 .pdf version is of poor quality and I am not hopeful with any OCR results.
@@ -10,8 +9,7 @@ You will need DjVuLibre. On Windows you need to add the install path to your env
 ```
  djvused kailath.djvu -e "set-outline kailath.bm" -s
 ```
-I converted my .djvu version to .pdf via https://oracleyue.github.io/post/djvu2pdf_with_toc/ which transfers the .djvu bookmarks to the .pdf
-`pdftk` and `sexpdata` library needed.
+I converted my .djvu version to .pdf via https://oracleyue.github.io/post/djvu2pdf_with_toc/ which transfers the .djvu bookmarks to the .pdf, for which `pdftk` and `sexpdata` library needed.
 
 If you have the .pdf version, you can just use:
 ```

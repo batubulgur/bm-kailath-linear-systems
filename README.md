@@ -11,7 +11,7 @@ You will need DjVuLibre. On Windows you need to add the install path to your env
  djvused kailath.djvu -e "set-outline kailath.bm" -s
 ```
 I converted my .djvu version to .pdf via https://oracleyue.github.io/post/djvu2pdf_with_toc/ which transfers the .djvu bookmarks to the .pdf
-`pdftk` and 'sexpdata' library needed.
+`pdftk` and `sexpdata` library needed.
 
 If you have the .pdf version, you can just use:
 ```
